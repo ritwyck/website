@@ -64,30 +64,3 @@ body, html {
   box-sizing: border-box;
   position: relative;
 }
-
-/* Add borders to bottom and right edges using fixed divs */
-.border-bottom, .border-right {
-  position: fixed;
-  z-index: 99;
-  pointer-events: none;
-  background-repeat: repeat;
-}
-
-.border-bottom {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 56px; /* Adjust to match image border height */
-  background-image: url('border-maroon-gold.png');
-  background-size: auto 56px; /* Set border height */
-}
-
-.border-right {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 56px; /* Adjust to match image border width */
-  background-image: url('border-maroon-gold.png');
-  background-size: 56px auto; /* Set border width */
-  background-repeat: repeat-y;
-}
