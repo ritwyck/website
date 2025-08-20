@@ -1,0 +1,73 @@
+/* ================= Sant’Ambrogio-Inspired Blog Style (Dusty Beige & Deep Violet) ======================= */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e5dfd4; /* Light dusty beige background */
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'IBM Plex Serif', 'Halant', serif;
+  color: #4a3c6a; /* Deep violet base text */
+  overflow-x: hidden;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e5dfd4;
+  min-height: 100vh;
+  font-family: 'IBM Plex Serif', 'Halant', serif;
+  color: #4a3c6a;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.main-menu.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: none;
+  padding: 2em 1.6em 2em 2.4em;
+  min-width: 130px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.menu-link {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 700;
+  color: #4a3c6a;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  border: none;
+  background: none;
+  outline: none;
+  transition: color 0.2s;
+}
+
+.menu-link.active {
+  font-weight: bold;
+  color: #160046;
+  text-decoration: bold;
+}
+
+.menu-link:hover {
+  color: #160046;
+  text-decoration: bold;
+}
+
+.main-content {
+  flex: 1;
+  padding: 3em 3em 2em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
